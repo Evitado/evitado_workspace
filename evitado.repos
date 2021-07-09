@@ -1,0 +1,45 @@
+repositories:
+  src/evitado_best_practices:
+    type: git
+    url: git@github.com:Evitado/evitado_best_practices.git
+    version: master
+  src/evitado_calibration:
+    type: git
+    url: git@github.com:Evitado/evitado_calibration.git
+    version: master
+  src/evitado_common:
+    type: git
+    url: git@github.com:Evitado/evitado_common.git
+    version: main
+  src/evitado_description:
+    type: git
+    url: git@github.com:Evitado/evitado_description.git
+    version: master
+  src/evitado_helpers:
+    type: git
+    url: git@github.com:Evitado/evitado_helpers.git
+    version: master
+  src/evitado_msgs:
+    type: git
+    url: git@github.com:Evitado/evitado_msgs.git
+    version: master
+  src/evitado_recording:
+    type: git
+    url: git@github.com:Evitado/evitado_recording.git
+    version: master
+  src/evitado_simulation:
+    type: git
+    url: git@github.com:Evitado/evitado_simulation.git
+    version: master
+  src/evitado_start:
+    type: git
+    url: git@github.com:Evitado/evitado_start.git
+    version: master
+  src/evitado_tools:
+    type: git
+    url: git@github.com:Evitado/evitado_tools.git
+    version: master
+  src/evitado_vdb_mapping:
+    type: git
+    url: git@github.com:Evitado/evitado_vdb_mapping.git
+    version: master
