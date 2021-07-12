@@ -19,6 +19,19 @@ wget http://packages.ros.org/ros.key -O - | sudo apt-key add -
 sudo apt-get -y update
 sudo apt-get -y install python-catkin-tools
 
+#########################TOOLS FOR SLAMS  #########################################
+sudo apt-get -y install ros-melodic-geodesy ros-melodic-pcl-ros ros-melodic-nmea-msgs ros-melodic-libg2o
+
+
+
+
+
+#########################INSTALL TOOLS #############################################
+sudo apt -y install python-pip
+
 #install cvstools
 sudo apt install -y python3-vcstool
 
+#install tmuxp
+sudo apt -y install tmuxp
+cp ./config/.tmux.conf ~/.tmux.conf
